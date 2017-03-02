@@ -19,7 +19,7 @@
 
 \definecolor{primary}{HTML}{2b2b2b} % The primary document color for content text
 \definecolor{headings}{HTML}{6A6A6A} % The color of the large sections
-\definecolor{subheadings}{HTML}{333333} % The color of subsections and places worked/studied
+\definecolor{subheadings}{HTML}{555555} % The color of subsections and places worked/studied
 \definecolor{date}{HTML}{666666} % The color used for the Last Updated text at the top right
 
 %----------------------------------------------------------------------------------------
@@ -56,8 +56,8 @@ Last Updated on \today % Last Updated text
 \fontsize{20pt}{35pt} % Font size
 \fontspec[Path = fonts/lato/]{Lato-Reg}\selectfont #1 % First name font
 \fontspec[Path = fonts/lato/]{Lato-Bol}\selectfont #2 % Last name font
-\hfill 
-\color{headings} % Use the headings color
+\hfill
+\color{subheadings} % Use the sub-headings color
 \fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{14pt}\selectfont #3  % Contact information font
 \hfill
 \fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{14pt}\selectfont #4} % Contact information font
